@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--navigationView的menu列表，共11项-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shoucang"
+            android:title="已收藏"/>
+        <item
+            android:id="@+id/nav_social"
+            android:title="社会新闻" />
+        <item
+            android:id="@+id/nav_guonei"
+            android:title="国内新闻" />
+        <item
+            android:id="@+id/nav_world"
+            android:title="国外新闻" />
+        <item
+            android:id="@+id/nav_huabian"
+            android:title="娱乐新闻" />
+        <item
+            android:id="@+id/nav_tiyu"
+            android:title="体育新闻"/>
+        <item
+            android:id="@+id/nav_football"
+            android:title="足球新闻"/>
+        <item
+            android:id="@+id/nav_keji"
+            android:title="科技新闻"/>
+        <item
+            android:id="@+id/nav_startup"
+            android:title="创业新闻"/>
+        <item
+            android:id="@+id/nav_apple"
+            android:title="苹果新闻"/>
+        <item
+            android:id="@+id/nav_it"
+            android:title="IT资讯"/>
+
+    </group>
+
+
+</menu>

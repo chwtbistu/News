@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--主菜单的内容，包括两项-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_login_in"
+        android:orderInCategory="100"
+        android:title="@string/menu_login_in" />
+    <item
+        android:id="@+id/action_login_out"
+        android:orderInCategory="101"
+        android:title="@string/menu_login_out" />
+</menu>
